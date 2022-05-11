@@ -9,6 +9,7 @@ public enum ErrorAttributesKey {
   TIME("timestamp");
 
   private final String key;
+  
   ErrorAttributesKey(String key) {
     this.key = key;
   }
